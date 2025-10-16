@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>✔ To-Do List</h1>
+
+    <div class="form">
+      <input id="newTaskInput" type="text" placeholder="Tambahkan tugas baru..." />
+      <button id="addBtn">Tambah</button>
+    </div>
+
+    <div class="search">
+      <input id="searchInput" type="text" placeholder="Cari tugas..." />
+    </div>
+
+    <ul id="tasksList" class="tasks"></ul>
+
+    <div class="meta">Total tugas: <span id="count">0</span></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
